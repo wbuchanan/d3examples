@@ -1,0 +1,3 @@
+[submodule "scatterFilter"]
+	path = scatterFilter
+	url = https://github.com/wbuchanan/scatterFilter
