@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aaffdfc-8c4d-406a-b220-b3575fb24b51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/d3examples.iml" afterPath="$PROJECT_DIR$/.idea/d3examples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/histogram/js/histogramLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scatterFilter" afterPath="$PROJECT_DIR$/scatterFilter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scatterFilter/js/jsonToArray.js" afterPath="$PROJECT_DIR$/scatterFilter/js/jsonToArray.js" />
     </list>
     <ignored path="d3examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,40 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scatterFilter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scatterFilter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scatterFilter/js/scatterFilter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="265" column="0" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#scatter#0" expanded="false" />
-                <element signature="n#!!block;n#xLoad#0" expanded="false" />
-                <element signature="n#!!block;n#xChange#0" expanded="false" />
-                <element signature="e#10187#10356#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="makeTable.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterFilter/js/makeTable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#select#0;n#!!block;n#makeTable#0" expanded="false" />
-                <element signature="e#5741#5922#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterFilter/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="309">
+              <caret line="141" column="0" selection-start-line="137" selection-start-column="8" selection-end-line="141" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boxPlotExample.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boxPlots/js/boxPlotExample.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="160" column="53" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,20 +60,26 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/scatterFilter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/boxPlots" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/boxPlots/js/boxPlotExample.js" />
         <option value="$PROJECT_DIR$/boxPlots/js/d3_exploding_boxplot.js" />
-        <option value="$PROJECT_DIR$/boxPlots/index.html" />
         <option value="$PROJECT_DIR$/scatterFilter/data/msas.json" />
         <option value="$PROJECT_DIR$/boxPlots/data/msas.json" />
-        <option value="$PROJECT_DIR$/scatterFilter/index.html" />
         <option value="$PROJECT_DIR$/scatterFilter/js/makeTable.js" />
         <option value="$PROJECT_DIR$/scatterFilter/js/scatterFilter.js" />
+        <option value="$PROJECT_DIR$/scatterFilter/index.html" />
+        <option value="$PROJECT_DIR$/boxPlots/index.html" />
+        <option value="$PROJECT_DIR$/boxPlots/js/jsonToArray.js" />
+        <option value="$PROJECT_DIR$/scatterFilter/js/jsonToArray.js" />
+        <option value="$PROJECT_DIR$/histogram/js/histoDataPrep.js" />
+        <option value="$PROJECT_DIR$/histogram/index.html" />
+        <option value="$PROJECT_DIR$/histogram/js/histogramLayout.js" />
+        <option value="$PROJECT_DIR$/histogram/js/histogram.js" />
+        <option value="$PROJECT_DIR$/boxPlots/js/boxPlotExample.js" />
       </list>
     </option>
   </component>
@@ -102,9 +94,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="75" />
-    <option name="width" value="1686" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="584" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -201,6 +192,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="histogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="histogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boxPlots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boxPlots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -217,6 +272,13 @@
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js.eslint.nodeInterpreter" value="project" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/histogram/data" />
+      <recent name="$PROJECT_DIR$/histogram" />
+      <recent name="$PROJECT_DIR$/scatterFilter/js" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.scatterFilter.js">
     <configuration default="false" name="scatterFilter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="scatterFilter.js" working-dir="$PROJECT_DIR$/scatterFilter/js">
@@ -338,16 +400,16 @@
       <workItem from="1464336053649" duration="71000" />
       <workItem from="1464336144787" duration="9374000" />
       <workItem from="1464360030810" duration="35222000" />
-      <workItem from="1464519693300" duration="16013000" />
+      <workItem from="1464519693300" duration="53627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64125000" />
+    <option name="totallyTimeSpent" value="101739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="75" width="1686" height="584" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="584" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -358,9 +420,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22357723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22357723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33198708" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5502249" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -369,7 +432,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -389,7 +451,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/scatterFilter/js/scatterFilter.js</url>
-          <line>64</line>
+          <line>57</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -402,12 +464,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#scatter#0" expanded="false" />
-            <element signature="n#!!block;n#xLoad#0" expanded="false" />
-            <element signature="n#!!block;n#xChange#0" expanded="false" />
-            <element signature="e#10187#10356#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -452,12 +509,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#scatter#0" expanded="false" />
-            <element signature="n#!!block;n#xLoad#0" expanded="false" />
-            <element signature="n#!!block;n#xChange#0" expanded="false" />
-            <element signature="e#10187#10356#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -473,12 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#scatter#0" expanded="false" />
-            <element signature="n#!!block;n#xLoad#0" expanded="false" />
-            <element signature="n#!!block;n#xChange#0" expanded="false" />
-            <element signature="e#10187#10356#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -494,12 +541,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#scatter#0" expanded="false" />
-            <element signature="n#!!block;n#xLoad#0" expanded="false" />
-            <element signature="n#!!block;n#xChange#0" expanded="false" />
-            <element signature="e#10187#10356#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -515,12 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#scatter#0" expanded="false" />
-            <element signature="n#!!block;n#xLoad#0" expanded="false" />
-            <element signature="n#!!block;n#xChange#0" expanded="false" />
-            <element signature="e#10187#10356#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -542,35 +579,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boxPlots/js/d3-tip.js" />
     <entry file="file://$PROJECT_DIR$/boxPlots/js/d3_exploding_boxplot.js" />
-    <entry file="file://$PROJECT_DIR$/boxPlots/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxPlots/data/msas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23661" column="4" selection-start-line="23661" selection-start-column="4" selection-end-line="23661" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#data#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#variableIsString#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxPlots/js/boxPlotExample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="69" column="91" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scatterFilter/data/msas.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -582,34 +590,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scatterFilter/index.html">
+    <entry file="file://$PROJECT_DIR$/scatterFilter/js/makeTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="39">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scatterFilter/js/makeTable.js">
+    <entry file="file://$PROJECT_DIR$/scatterFilter/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxPlots/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#select#0;n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="e#5741#5922#0" expanded="false" />
+            <marker date="1464779945000" expanded="true" signature="31:1397" placeholder="..." />
+            <marker date="1464779945000" expanded="true" signature="38:838" placeholder="..." />
+            <marker date="1464779945000" expanded="true" signature="846:1325" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxPlots/js/jsonToArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxPlots/data/msas.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#variableIsString#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/js/histoDataPrep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/data/msas.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scatterFilter/js/jsonToArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/js/histogramLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/js/histogram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scatterFilter/js/scatterFilter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="265" column="0" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
+        <state relative-caret-position="309">
+          <caret line="141" column="0" selection-start-line="137" selection-start-column="8" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxPlots/js/boxPlotExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="160" column="53" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
           <folding>
-            <element signature="n#!!block;n#scatter#0" expanded="false" />
-            <element signature="n#!!block;n#xLoad#0" expanded="false" />
-            <element signature="n#!!block;n#xChange#0" expanded="false" />
-            <element signature="e#10187#10356#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>

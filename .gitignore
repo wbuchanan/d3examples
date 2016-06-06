@@ -7,8 +7,14 @@
 *.iml
 out
 gen
-
+.idea/workspace.xml
+.idea/misc.xml
 boxPlots/
+histogram/
+histogram/js/histogramLayout.js
+.idea/misc.xml
+.idea/workspace.xml
+
 
 
 
