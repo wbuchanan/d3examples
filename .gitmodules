@@ -1,3 +1,7 @@
 [submodule "scatterFilter"]
 	path = scatterFilter
 	url = https://github.com/wbuchanan/scatterFilter
+
+[submodule "histogram"]
+    path = histogram
+    url = https://github.com/wbuchanan/histogramExample
